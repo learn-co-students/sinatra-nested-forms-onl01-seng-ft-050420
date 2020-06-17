@@ -1,11 +1,12 @@
 source "https://rubygems.org"
 
 gem 'sinatra', require: 'sinatra/base'
-gem 'sinatra-reloader', require: false
+gem 'sinatra-reloader', '~> 1.0'
 gem 'shotgun'
 gem 'pry'
 gem 'tux'
-gem 'require_all'
+gem 'require_all', '~> 3.0'
+gem 'solorgraph'
 
 group :test do
   gem 'rspec'
